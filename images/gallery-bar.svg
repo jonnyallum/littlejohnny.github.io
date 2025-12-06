@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#121212"/>
+  <rect x="44" y="44" width="1112" height="712" fill="#121212" rx="40" stroke="#E0B0FF" stroke-width="10" stroke-dasharray="26 22"/>
+  <text x="600" y="170" text-anchor="middle" font-family="'Bebas Neue', 'Anton', sans-serif" font-size="92" fill="#E0B0FF" letter-spacing="4" filter="url(#glow)">MOBILE BAR</text>
+  <text x="600" y="250" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="42" fill="#FFC107">Cocktails • Fizz • Draught-style pours</text>
+  <text x="600" y="320" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="32" fill="#ffffff">£250 fully stocked bar with cashback offer</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="30" fill="#FF6B00">My Special Treat: £250 back if takings exceed £1500</text>
+  <g fill="#FFC107">
+    <rect x="220" y="470" width="180" height="120" rx="18"/>
+    <rect x="500" y="450" width="200" height="160" rx="18"/>
+    <rect x="820" y="470" width="180" height="120" rx="18"/>
+  </g>
+  <text x="600" y="640" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="32" fill="#ffffff">LED glow, cocktail theatre, bar-ready staff</text>
+  <defs>
+    <filter id="glow" x="0" y="0" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

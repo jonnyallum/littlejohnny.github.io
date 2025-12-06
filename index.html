@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Jonny's Hog Roast, Pizza Van, Mobile Bar & Buffets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quick-bar">
+    <div class="quick-bar__inner">
+      <span class="quick-bar__label">Minimum 8-hour hog from £15pp</span>
+      <span class="quick-bar__divider">•</span>
+      <a href="tel:+447723959178" class="quick-bar__link">Call 07723 959178</a>
+      <span class="quick-bar__divider">•</span>
+      <a href="#booking" class="quick-bar__link">Date checker →</a>
+    </div>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="hero__pattern"></div>
+    <div class="hero__smoke"></div>
+    <div class="container hero__content">
+      <img
+        class="hero__logo"
+        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=200&q=80"
+        alt="Little Jonny's flying pig logo placeholder"
+      />
+      <p class="eyebrow">Bold, cheeky catering · Hampshire & beyond</p>
+      <h1>LITTLE JONNY'S HOG ROAST</h1>
+      <p class="tagline">Slow-roasted to perfection. Hampshire's cheekiest hog.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#booking">Book Now</a>
+        <a class="btn btn--ghost" href="#menu">See the Menu</a>
+      </div>
+      <div class="hero__badges">
+        <span>Hog roast · Pizza · Buffets · Canapés · Mobile Bar</span>
+        <span>Card & contactless ready</span>
+        <span>Corporate, weddings, parties</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--menu" id="menu">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Menu tabs</p>
+          <h2>Pick your feast</h2>
+          <p class="section__lead">Scroll the tabs to match the printed flyers—tap one to view the dishes.</p>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab is-active" data-tab="hog">Hog Roast Packages</button>
+          <button class="tab" data-tab="pizza">Pizza</button>
+          <button class="tab" data-tab="buffet">Buffets</button>
+          <button class="tab" data-tab="canapes">Canapés</button>
+          <button class="tab" data-tab="salads">Salads</button>
+          <button class="tab" data-tab="sandwiches">Sandwiches</button>
+          <button class="tab" data-tab="cakes">Cakes</button>
+          <button class="tab" data-tab="pasta">Pasta</button>
+          <button class="tab" data-tab="bar">Mobile Bar</button>
+        </div>
+
+        <div class="tab-panels">
+          <div class="tab-panel is-active" data-panel="hog">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Hog Roast</p>
+                  <h3>Standard</h3>
+                  <p class="price">£15 per person</p>
+                </div>
+                <ul>
+                  <li>Minimum 8-hour cooked hog roast</li>
+                  <li>Crunchy bread rolls & butter <strong>OR</strong> roast potatoes & salad</li>
+                  <li>Apple sauce & sage and onion stuffing</li>
+                </ul>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Hog Roast</p>
+                  <h3>The Full Hog</h3>
+                  <p class="price">£20 per person</p>
+                </div>
+                <ul>
+                  <li>12-hour cooked hog</li>
+                  <li>Rolls or roast potatoes, <strong>plus 2 salads</strong> & cakes</li>
+                  <li>Apple sauce & sage and onion stuffing</li>
+                </ul>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Hog Roast</p>
+                  <h3>Henry VIII</h3>
+                  <p class="price">£25 per person</p>
+                </div>
+                <ul>
+                  <li>The Full Hog <strong>plus 2 additional salads</strong></li>
+                  <li>Choice of <strong>2 cakes</strong></li>
+                  <li>Apple sauce & sage and onion stuffing</li>
+                </ul>
+              </article>
+            </div>
+            <div class="note">Apple sauce, stuffing photos, and carving theatre included on the day.</div>
+          </div>
+
+          <div class="tab-panel" data-panel="pizza">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Pizza Van</p>
+                  <h3>Pizza Party</h3>
+                  <p class="price">£10 per person</p>
+                </div>
+                <p>Choose any stone-oven baked pizza with homemade sauce.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Pizza Van</p>
+                  <h3>Valentino Rossi</h3>
+                  <p class="price">£15 per person</p>
+                </div>
+                <p>Buffet pizza, choose 2 salads, finished with cakes.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Pizza Van</p>
+                  <h3>Chicken Pizza</h3>
+                  <p class="price">Ask for a quote</p>
+                </div>
+                <p>Freshly baked chicken-topped pizza straight from the stone oven.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Pizza Van</p>
+                  <h3>Jonny Pavarotti</h3>
+                  <p class="price">Ask for a quote</p>
+                </div>
+                <p>Signature house pizza with Little Jonny's cheeky twist.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="buffet">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Buffet</p>
+                  <h3>Basic</h3>
+                  <p class="price">£9 per person</p>
+                </div>
+                <p>Choose 3 sandwiches, rolls, crisps.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Buffet</p>
+                  <h3>Party</h3>
+                  <p class="price">£12 per person</p>
+                </div>
+                <p>Choose 4 sandwiches, rolls, pork pies, sausage rolls, cakes.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Buffet</p>
+                  <h3>Banquet</h3>
+                  <p class="price">£16 per person</p>
+                </div>
+                <p>Choose 5 sandwiches, rolls, pork pies, sausage rolls, cakes, buffet pizza, 2 salads.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Buffet</p>
+                  <h3>Children's Party</h3>
+                  <p class="price">£10 per person</p>
+                </div>
+                <p>Cakes, buffet pizza, sandwiches, crisps.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="canapes">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Canapés</p>
+                  <h3>Warm bites</h3>
+                  <p class="price">£8pp</p>
+                </div>
+                <p>Pulled pork sliders, halloumi fries, arancini, and smoked salmon blinis.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Canapés</p>
+                  <h3>Cold bites</h3>
+                  <p class="price">£7pp</p>
+                </div>
+                <p>Caprese skewers, charcuterie cones, crudités with dips, and bruschetta.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="salads">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Salads</p>
+                  <h3>Classic sides</h3>
+                  <p class="price">£5pp</p>
+                </div>
+                <p>Rainbow slaw, potato salad, mixed leaves, and pasta pesto.</p>
+              </article>
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Salads</p>
+                  <h3>Premium sides</h3>
+                  <p class="price">£7pp</p>
+                </div>
+                <p>Heritage tomato & mozzarella, roasted vegetable couscous, Greek salad.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="sandwiches">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Sandwiches</p>
+                  <h3>Signature subs</h3>
+                  <p class="price">£6pp</p>
+                </div>
+                <p>Homemade burgers, ham hock & piccalilli, roasted veg & feta.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="cakes">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Cakes</p>
+                  <h3>Sweet finish</h3>
+                  <p class="price">£5pp</p>
+                </div>
+                <p>Brownies, carrot cake, lemon drizzle, cheesecake pots, and cupcakes.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="pasta">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Pasta</p>
+                  <h3>Comfort bowls</h3>
+                  <p class="price">£8pp</p>
+                </div>
+                <p>Lasagne, creamy chicken & bacon, roasted veggie arrabbiata, garlic bread.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" data-panel="bar">
+            <div class="grid grid--cards">
+              <article class="card card--menu">
+                <div class="card__header">
+                  <p class="eyebrow">Mobile Bar</p>
+                  <h3>Fully stocked</h3>
+                  <p class="price">£250 setup</p>
+                </div>
+                <p>Craft beer taps, cocktails, fizz towers, glassware, and trained bar team.</p>
+              </article>
+            </div>
+            <div class="callout callout--bar">My Special Treat: £250 cashback if bar takings &gt; £1500</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--prices" id="price-list">
+      <div class="texture-layer"></div>
+      <div class="container prices">
+        <div class="section__header">
+          <p class="eyebrow">Price list</p>
+          <h2>Order straight from the flyer</h2>
+          <p class="section__lead">Same bold black-and-yellow cards from the printed menu—pick your package and send it as an order form.</p>
+        </div>
+
+        <div class="price-grid">
+          <article class="price-card">
+            <div class="price-card__title">Hog Roast</div>
+            <div class="price-card__item">
+              <div>
+                <h3>Standard</h3>
+                <p>Minimum 8-hour cooked hog roast, crunchy bread rolls & butter <strong>OR</strong> roast potatoes & salad.</p>
+              </div>
+              <span class="price-tag">£15 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>The Full Hog</h3>
+                <p>12-hour cooked hog, rolls or roast potatoes, <strong>2 salads</strong> & cakes.</p>
+              </div>
+              <span class="price-tag">£20 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Henry VIII</h3>
+                <p>The Full Hog plus <strong>2 extra salads</strong> and a choice of <strong>2 cakes</strong>.</p>
+              </div>
+              <span class="price-tag">£25 pp</span>
+            </div>
+            <p class="price-card__foot">Apple sauce & sage and onion stuffing on every hog roast.</p>
+          </article>
+
+          <article class="price-card">
+            <div class="price-card__title">Buffets</div>
+            <div class="price-card__item">
+              <div>
+                <h3>Basic</h3>
+                <p>Choose 3 sandwiches, rolls, crisps.</p>
+              </div>
+              <span class="price-tag">£9 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Party</h3>
+                <p>Choose 4 sandwiches, rolls, pork pies, sausage rolls, cakes.</p>
+              </div>
+              <span class="price-tag">£12 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Banquet</h3>
+                <p>Choose 5 sandwiches, rolls, pork pies, sausage rolls, cakes, buffet pizza, 2 salads.</p>
+              </div>
+              <span class="price-tag">£16 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Children's Party</h3>
+                <p>Cakes, buffet pizza, sandwiches, crisps.</p>
+              </div>
+              <span class="price-tag">£10 pp</span>
+            </div>
+          </article>
+
+          <article class="price-card">
+            <div class="price-card__title">Pizza</div>
+            <div class="price-card__item">
+              <div>
+                <h3>Pizza Party</h3>
+                <p>Stone-oven baked pizzas with homemade pizza sauce.</p>
+              </div>
+              <span class="price-tag">£10 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Valentino Rossi</h3>
+                <p>Buffet pizza with <strong>2 salads</strong> and cakes.</p>
+              </div>
+              <span class="price-tag">£15 pp</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Chicken Pizza</h3>
+                <p>Loaded with tender chicken and baked in the stone oven.</p>
+              </div>
+              <span class="price-tag">Quote</span>
+            </div>
+            <div class="price-card__item">
+              <div>
+                <h3>Jonny Pavarotti</h3>
+                <p>Signature pizza night with Little Jonny's festival flair.</p>
+              </div>
+              <span class="price-tag">Quote</span>
+            </div>
+          </article>
+
+          <article class="price-card price-card--bar">
+            <div class="price-card__title">Mobile Bar</div>
+            <div class="price-card__item">
+              <div>
+                <h3>Fully stocked bar</h3>
+                <p>Neon-lit bar with draught-style pours, cocktails, fizz, and glassware.</p>
+              </div>
+              <span class="price-tag">£250</span>
+            </div>
+            <div class="price-card__callout">My Special Treat – get £250 back if bar takings over £1500</div>
+          </article>
+        </div>
+
+        <div class="order-wrap">
+          <div class="order-copy">
+            <h3>Order form</h3>
+            <p>Tick your packages, add headcount, and the email will pre-fill just like the printed order sheet.</p>
+            <p class="muted">Need something custom? Choose "Custom combo" and add notes.</p>
+          </div>
+          <form class="form form--order" id="order-form">
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-hog-standard" name="packages" value="Hog Roast – Standard (£15pp)" />
+              <label for="order-hog-standard">Hog Roast – Standard (£15pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-hog-full" name="packages" value="Hog Roast – The Full Hog (£20pp)" />
+              <label for="order-hog-full">Hog Roast – The Full Hog (£20pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-hog-henry" name="packages" value="Hog Roast – Henry VIII (£25pp)" />
+              <label for="order-hog-henry">Hog Roast – Henry VIII (£25pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-buffet-basic" name="packages" value="Buffet – Basic (£9pp)" />
+              <label for="order-buffet-basic">Buffet – Basic (£9pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-buffet-party" name="packages" value="Buffet – Party (£12pp)" />
+              <label for="order-buffet-party">Buffet – Party (£12pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-buffet-banquet" name="packages" value="Buffet – Banquet (£16pp)" />
+              <label for="order-buffet-banquet">Buffet – Banquet (£16pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-buffet-children" name="packages" value="Buffet – Children's Party (£10pp)" />
+              <label for="order-buffet-children">Buffet – Children's Party (£10pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-pizza-party" name="packages" value="Pizza Party (£10pp)" />
+              <label for="order-pizza-party">Pizza Party (£10pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-pizza-valentino" name="packages" value="Pizza – Valentino Rossi (£15pp)" />
+              <label for="order-pizza-valentino">Pizza – Valentino Rossi (£15pp)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-pizza-chicken" name="packages" value="Pizza – Chicken (quote)" />
+              <label for="order-pizza-chicken">Pizza – Chicken (quote)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-pizza-pavarotti" name="packages" value="Pizza – Jonny Pavarotti (quote)" />
+              <label for="order-pizza-pavarotti">Pizza – Jonny Pavarotti (quote)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-bar" name="packages" value="Mobile Bar (£250 setup with cashback)" />
+              <label for="order-bar">Mobile Bar (£250 setup with cashback)</label>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-custom" name="packages" value="Custom combo" />
+              <label for="order-custom">Custom combo</label>
+            </div>
+
+            <div class="form__group form__group--split">
+              <div>
+                <label for="order-guests">Guests</label>
+                <input type="number" id="order-guests" name="guests" min="10" step="1" required placeholder="Approx. headcount" />
+              </div>
+              <div>
+                <label for="order-date">Event date</label>
+                <input type="date" id="order-date" name="date" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="order-name">Name</label>
+              <input type="text" id="order-name" name="name" required placeholder="Your full name" />
+            </div>
+            <div class="form__group">
+              <label for="order-email">Email</label>
+              <input type="email" id="order-email" name="email" required placeholder="you@example.com" />
+            </div>
+            <div class="form__group">
+              <label for="order-phone">Phone</label>
+              <input type="tel" id="order-phone" name="phone" required placeholder="07723 959178" />
+            </div>
+            <div class="form__group">
+              <label for="order-notes">Notes / venue / extras</label>
+              <textarea id="order-notes" name="notes" rows="3" placeholder="Venue address, timings, dietary needs, extras"></textarea>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input type="checkbox" id="order-card" name="card" />
+              <label for="order-card">I'd like to pay by card online</label>
+            </div>
+            <button class="btn btn--primary" type="submit">Send price list order</button>
+            <p class="form__success" id="order-success" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--feature" id="hog-roast">
+      <div class="container feature">
+        <div class="feature__media">
+          <img src="https://images.unsplash.com/photo-1481391398131-9080d44bb807?auto=format&fit=crop&w=900&q=80" alt="Hog roast being carved" />
+          <div class="feature__badge">Crackling guaranteed</div>
+        </div>
+        <div class="feature__content">
+          <p class="eyebrow">Hog Roast Highlight</p>
+          <h2>Carved live with apple sauce & stuffing</h2>
+          <p class="section__lead">
+            Showstopper hog roasts with chef theatre, crispy crackling, and homemade sauces so everyone sees (and smells) the good stuff.
+          </p>
+          <ul class="feature__list">
+            <li>8-hour slow roast with brioche rolls</li>
+            <li>Three salad options & roast potatoes on premium tiers</li>
+            <li>Set packages or custom menus for weddings and festivals</li>
+          </ul>
+          <div class="btn-group">
+            <a class="btn btn--primary" href="#booking">Hold my date</a>
+            <a class="btn btn--ghost" href="https://buy.stripe.com/test_00gPackageHogRoast" target="_blank" rel="noreferrer">Pay deposit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--bar" id="bar">
+      <div class="container bar">
+        <div class="bar__content">
+          <p class="eyebrow">Mobile Bar</p>
+          <h2>Neon-lit pours anywhere</h2>
+          <p class="section__lead">£250 fully stocked bar package with contactless and cash bar options.</p>
+          <div class="callout callout--bar">My Special Treat – get £250 cashback if bar takings &gt; £1500</div>
+          <div class="bar__tags">
+            <span>Welcome drinks</span>
+            <span>Signature cocktails</span>
+            <span>Draught-style pours</span>
+            <span>Glassware included</span>
+          </div>
+          <div class="btn-group">
+            <a class="btn btn--primary" href="#booking">Book the bar</a>
+            <a class="btn btn--ghost" href="#menu">Add to menu</a>
+          </div>
+        </div>
+        <div class="bar__media">
+          <img src="https://images.unsplash.com/photo-1527169402691-feff5539e52c?auto=format&fit=crop&w=900&q=80" alt="Mobile bar setup" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--about" id="about">
+      <div class="container about">
+        <div>
+          <p class="eyebrow">Meet Jonny</p>
+          <h2>British festival energy with premium plates</h2>
+          <p class="section__lead">
+            I started catering in 2015 with Little Jonny's burger van making homemade burgers, then moved into pizzas and joint ventures with Noshbox founder John Brooks under Brothers Kitchen.
+          </p>
+          <p class="section__lead">
+            I ran the Fishbourne Centre, brought catering in-house, and launched weddings. Now I split my time between a care home role and events plus personal chef services—still chasing that fresh-off-the-grill buzz.
+          </p>
+          <div class="about__details">
+            <div>
+              <h3>What drives us</h3>
+              <ul>
+                <li>Cooking live on-site so guests can smell and see the food</li>
+                <li>Homemade sauces, salads, and desserts baked fresh</li>
+                <li>Menus flex for dietary needs and budgets</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Where we cover</h3>
+              <p>Based in Hampshire—happy to travel for weddings, festivals, corporate launches, and garden parties.</p>
+              <p class="muted">Fully insured, food-safety certified, and bar-ready for card-only venues.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__highlight">
+          <div class="stat">
+            <strong>2015</strong>
+            <span>Started Little Jonny's burger van</span>
+          </div>
+          <div class="stat">
+            <strong>350+ events</strong>
+            <span>Weddings, festivals, private, and corporate</span>
+          </div>
+          <div class="stat">
+            <strong>Card-ready</strong>
+            <span>Contactless & online deposit links</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gallery" id="gallery">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Gallery</p>
+          <h2>Real cooks, real fire, real happy faces</h2>
+          <p class="section__lead">Your own visuals are baked in—every tile is a Jonny-branded graphic ready to swap for live photos.</p>
+        </div>
+        <div class="gallery">
+          <figure class="gallery__item"><img src="images/gallery-hog.svg" alt="Little Jonny carving the hog roast" /><figcaption>Carving the signature hog with apple sauce and sage stuffing</figcaption></figure>
+          <figure class="gallery__item"><img src="images/gallery-pizza.svg" alt="Little Jonny's wood-fired pizza van" /><figcaption>Pizza from the yellow van – Margherita, Meat Feast, Mediterranean Vegan</figcaption></figure>
+          <figure class="gallery__item"><img src="images/gallery-bar.svg" alt="Neon mobile bar artwork" /><figcaption>Mobile bar glow with £250 cashback offer</figcaption></figure>
+          <figure class="gallery__item"><img src="images/gallery-buffet.svg" alt="Buffet and grazing table artwork" /><figcaption>Buffet spreads with loaded salads and pork pies</figcaption></figure>
+          <figure class="gallery__item"><img src="images/gallery-chef.svg" alt="Personal chef plating dishes" /><figcaption>Personal chef nights – plated mains and desserts</figcaption></figure>
+          <figure class="gallery__item"><img src="images/gallery-crowd.svg" alt="Crowd cheering for Little Jonny's food" /><figcaption>Real guests, festival queues, and wedding smiles</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--booking" id="booking">
+      <div class="container booking">
+        <div class="booking__intro">
+          <p class="eyebrow">Online booking</p>
+          <h2>Tell us about your event</h2>
+          <p class="section__lead">Book hog roast, pizza, buffets, or the mobile bar—card payments ready.</p>
+          <div class="inline-cards">
+            <div class="pill">Card & contactless ready</div>
+            <div class="pill">Dietary-aware menus</div>
+            <div class="pill">Staffed or drop-off service</div>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn--ghost" href="https://docs.google.com/spreadsheets/d/YOUR-SHEET-ID" target="_blank" rel="noreferrer">Google Sheet: check dates</a>
+            <a class="btn btn--ghost" href="tel:+447723959178">Call 07723 959178</a>
+            <a class="btn btn--ghost" href="https://wa.me/447723959178" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+          <div class="qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://wa.me/447723959178" alt="QR code to WhatsApp" />
+            <p class="muted">Scan for WhatsApp or menu PDF.</p>
+          </div>
+        </div>
+        <form class="form" id="booking-form">
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name" />
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com" />
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required placeholder="07723 971955" />
+          </div>
+          <div class="form__group form__group--split">
+            <div>
+              <label for="date">Event date</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div>
+              <label for="guests">Guests</label>
+              <input type="number" id="guests" name="guests" min="10" step="1" required placeholder="Approximate headcount" />
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="services">Services needed</label>
+            <select id="services" name="services" required>
+              <option value="">Select one</option>
+              <option>Hog Roast</option>
+              <option>Pizza Van</option>
+              <option>Mobile Bar</option>
+              <option>Buffet / Grazing</option>
+              <option>Wedding Catering</option>
+              <option>Personal Chef</option>
+              <option>Combination</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="notes">Event details</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Venue, timings, menu ideas, dietary needs"></textarea>
+          </div>
+          <div class="form__group form__group--checkbox">
+            <input type="checkbox" id="card" name="card" />
+            <label for="card">I'd like to pay by card online (invoice or payment link)</label>
+          </div>
+          <button class="btn btn--primary" type="submit">Send booking request</button>
+          <p class="form__success" id="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__pattern"></div>
+    <div class="container footer__content">
+      <div>
+        <h3>Little Jonny's</h3>
+        <p>Hog roast, pizza van, mobile bar, buffets, and personal chef services.</p>
+      </div>
+      <div class="footer__contact">
+        <p><strong>Phone:</strong> <a href="tel:+447723959178">07723 959178</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@littlejonnys.co.uk">info@littlejonnys.co.uk</a></p>
+        <p><strong>Instagram:</strong> @littlejonnys</p>
+      </div>
+      <div class="footer__links">
+        <a href="#top">Back to top</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu tabs</a>
+      </div>
+    </div>
+    <p class="footer__note">Based in Hampshire – travelling anywhere · Card payments available</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
