@@ -1,9 +1,17 @@
-# Welcome to littlejonnys.github.io
+# Little Jonny's Catering
 
-This is my personal GitHub Pages site.
+A simple static site for Little Jonny's hog roast, pizza van, mobile bar, buffets, and personal chef services.
 
-## About
-This site is powered by GitHub Pages and hosted at [littlejonnys.github.io](https://littlejonnys.github.io).
+## Running locally
 
-## Getting Started
-Edit this README.md file to customize your site content.
+```bash
+python -m http.server 8000
+```
+
+Then browse to http://localhost:8000.
+
+## Customising
+- Update contact details or copy as needed in `index.html`.
+- Replace the placeholder Google Sheet link in the "Check or share dates" section.
+- Swap gallery images with your own photos (local files or hosted URLs).
+- Update the Stripe/payment links in the packages section with your live payment links.
