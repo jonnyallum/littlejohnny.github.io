@@ -14,5 +14,8 @@ Quick preview:
 
 Alternatively, open `index.html` directly in your browser or serve the folder with any static server, e.g. `python -m http.server`.
 
+## Running locally
+Open `index.html` directly in your browser or serve the folder with any static server (for example `python -m http.server`).
+
 ## Stripe hand-off
 Replace the `STRIPE_PAYMENT_LINK` and publishable key in `script.js` with your live Stripe details. For full Checkout sessions, wire the commented fetch call to your backend endpoint that returns a `sessionId`.
