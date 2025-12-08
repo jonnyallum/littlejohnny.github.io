@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#121212"/>
+  <rect x="32" y="32" width="1136" height="736" rx="42" fill="#FFC107"/>
+  <rect x="72" y="72" width="1056" height="656" rx="32" fill="#121212"/>
+  <text x="600" y="190" text-anchor="middle" font-family="'Bebas Neue', 'Anton', sans-serif" font-size="88" fill="#FFC107" letter-spacing="3">PERSONAL CHEF</text>
+  <text x="600" y="260" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="40" fill="#ffffff">Private dining, plated courses, chef-at-home</text>
+  <text x="600" y="320" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="32" fill="#FF6B00">Fishbourne favourites & Brothers Kitchen classics</text>
+  <g fill="#FFC107">
+    <circle cx="340" cy="520" r="44"/>
+    <circle cx="600" cy="540" r="34"/>
+    <circle cx="860" cy="520" r="44"/>
+  </g>
+  <text x="600" y="640" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="32" fill="#ffffff">Jonny plating mains and desserts in-home</text>
+</svg>

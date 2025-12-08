@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#121212"/>
+  <rect x="36" y="36" width="1128" height="728" fill="#FFC107" rx="40"/>
+  <rect x="76" y="76" width="1048" height="648" fill="#121212" rx="28"/>
+  <text x="600" y="200" text-anchor="middle" font-family="'Bebas Neue', 'Anton', sans-serif" font-size="90" fill="#FFC107" letter-spacing="3">WOOD-FIRED PIZZA</text>
+  <text x="600" y="280" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="44" fill="#ffffff">From the yellow Little Jonny's van</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="32" fill="#ffffff">Margherita · Meat Feast · Mediterranean Vegan</text>
+  <text x="600" y="400" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="30" fill="#FF6B00">Hand-stretched bases · Live pizza theatre</text>
+  <g stroke="#FFC107" stroke-width="14" stroke-linecap="round">
+    <path d="M240 560 C360 520, 420 620, 540 580"/>
+    <path d="M660 580 C780 620, 840 520, 960 560"/>
+  </g>
+  <text x="600" y="650" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="32" fill="#ffffff">Fresh flames, gooey cheese, festival vibes</text>
+</svg>
