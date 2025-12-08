@@ -16,6 +16,8 @@ Alternatively, open `index.html` directly in your browser or serve the folder wi
 
 Live GitHub Pages URL (published automatically from `main`):
 - `https://jonnyallum.github.io/littlejohnny.github.io/` (project site URL for this repo via the GitHub Pages workflow)
+Live GitHub Pages URL (once Pages is enabled on `main`):
+- `https://jonnyallum.github.io/littlejohnny.github.io/` (project site URL for this repo)
 
 If you type `https://littlejonnys.github.io/` (extra “s”), GitHub will return 404 because that belongs to a different account. Double-check the exact URL in Settings → Pages.
 
