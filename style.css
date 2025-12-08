@@ -98,10 +98,9 @@ img {
   object-fit: contain;
   border: none;
   border-radius: 0;
-  box-shadow: none;
   background: transparent;
   mix-blend-mode: normal;
-  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.55));
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.55));
 }
 
 .sr-only {
