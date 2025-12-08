@@ -51,6 +51,9 @@ img {
 
 .site-header {
   background:
+    linear-gradient(120deg, rgba(11, 15, 20, 0.45), rgba(11, 15, 20, 0.38)),
+    url("https://i.ibb.co/YBKW1Wjc/Littlejonnys-pizza-van-catering-bursledon.jpg") center/cover no-repeat;
+  padding: 12px 0 150px;
     linear-gradient(135deg, rgba(11, 15, 20, 0.82), rgba(11, 15, 20, 0.74)),
     url("https://i.ibb.co/YBKW1Wjc/Littlejonnys-pizza-van-catering-bursledon.jpg") center/cover no-repeat;
   padding: 6px 0 120px;
@@ -64,6 +67,7 @@ img {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-height: 96vh;
   min-height: 92vh;
 }
 
@@ -71,6 +75,8 @@ img {
   content: "";
   position: absolute;
   inset: 0;
+  background: radial-gradient(circle at 70% 20%, rgba(247, 163, 0, 0.22), transparent 45%),
+    radial-gradient(circle at 15% 10%, rgba(100, 214, 197, 0.16), transparent 35%);
   background: radial-gradient(circle at 70% 20%, rgba(247, 163, 0, 0.25), transparent 45%),
     radial-gradient(circle at 15% 10%, rgba(100, 214, 197, 0.2), transparent 35%);
   pointer-events: none;
@@ -88,6 +94,7 @@ img {
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 14px;
   gap: 10px;
   color: var(--text);
   text-decoration: none;
@@ -96,6 +103,13 @@ img {
 }
 
 .brand-logo {
+  width: clamp(160px, 18vw, 240px);
+  height: auto;
+  object-fit: contain;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
   width: clamp(76px, 9vw, 108px);
   height: clamp(76px, 9vw, 108px);
   border-radius: 18px;
@@ -117,6 +131,8 @@ img {
 
 .brand-name {
   font-family: "Playfair Display", serif;
+  font-size: clamp(1.35rem, 1.7vw, 1.6rem);
+  text-shadow: 0 6px 30px rgba(0, 0, 0, 0.35);
   font-size: 1.35rem;
   font-size: 1.2rem;
 }
@@ -246,6 +262,92 @@ img {
 .hero-panel {
   display: flex;
   justify-content: flex-end;
+}
+
+.panel-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  max-width: 420px;
+}
+
+.panel-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.panel-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 10px 0 14px;
+}
+
+.pill {
+  padding: 8px 12px;
+  background: rgba(100, 214, 197, 0.12);
+  border-radius: 999px;
+  border: 1px solid rgba(100, 214, 197, 0.28);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.panel-footer {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.section {
+  padding: 72px 0;
+}
+
+.section.alt {
+  background: rgba(16, 23, 33, 0.7);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin: 0 0 12px;
+}
+
+.subhead {
+  color: var(--muted);
+  margin: 0;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.service-card,
+.feature-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h3,
+.feature-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
 }
 
 .panel-card {
