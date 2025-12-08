@@ -54,6 +54,11 @@ img {
     linear-gradient(135deg, rgba(11, 15, 20, 0.82), rgba(11, 15, 20, 0.74)),
     url("https://i.ibb.co/YBKW1Wjc/Littlejonnys-pizza-van-catering-bursledon.jpg") center/cover no-repeat;
   padding: 6px 0 120px;
+    linear-gradient(135deg, rgba(11, 15, 20, 0.92), rgba(11, 15, 20, 0.85)),
+    url("https://i.ibb.co/YBKW1Wjc/Littlejonnys-pizza-van-catering-bursledon.jpg") center/cover no-repeat;
+  padding-bottom: 88px;
+  background: linear-gradient(135deg, rgba(16, 23, 33, 0.8), rgba(11, 15, 20, 0.92));
+  padding-bottom: 72px;
   border-bottom: 1px solid var(--line);
   position: relative;
   overflow: hidden;
@@ -97,11 +102,23 @@ img {
   object-fit: cover;
   border: 3px solid var(--line);
   box-shadow: var(--shadow);
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 3px solid var(--line);
+  box-shadow: var(--shadow);
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 2px solid var(--line);
 }
 
 .brand-name {
   font-family: "Playfair Display", serif;
   font-size: 1.35rem;
+  font-size: 1.2rem;
 }
 
 .nav-toggle {
@@ -150,6 +167,12 @@ img {
   position: relative;
   z-index: 2;
   flex: 1;
+  gap: 28px;
+  align-items: center;
+  padding: 42px 0 0;
+  padding: 32px 0 0;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-copy h1 {
@@ -157,6 +180,8 @@ img {
   font-size: clamp(2.4rem, 4.6vw, 3.5rem);
   line-height: 1.08;
   margin: 0 0 14px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin: 0 0 12px;
 }
 
 .hero-copy .lede {
@@ -170,6 +195,11 @@ img {
   color: var(--accent-2);
   font-weight: 700;
   margin: 0 0 12px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  font-weight: 700;
+  margin: 0 0 10px;
 }
 
 .hero-actions {
@@ -225,6 +255,14 @@ img {
   padding: 24px;
   box-shadow: var(--shadow);
   max-width: 420px;
+}
+
+.panel-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
 }
 
 .panel-title {
