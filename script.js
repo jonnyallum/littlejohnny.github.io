@@ -47,7 +47,7 @@ function validateFormData(data) {
 }
 
 function collectServices() {
-  return Array.from(document.querySelectorAll('input[name="services"]:checked')).map((box) => box.value);
+  return Array.from(document.querySelectorAll('input[name="services[]"]:checked')).map((box) => box.value);
 }
 
 form?.addEventListener('submit', (event) => {
