@@ -16,6 +16,8 @@ concurrency:
 
 jobs:
   deploy:
+    # Only deploy when explicitly requested or when main is updated
+    if: github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
