@@ -1,17 +1,14 @@
-# Little Jonny's Catering
+# Little Jonnys Catering Site
 
-A simple static site for Little Jonny's hog roast, pizza van, mobile bar, buffets, and personal chef services.
+A refreshed single-page site for Little Jonnys that spotlights wedding, wake, corporate and private event catering across Hampshire and West Sussex.
+
+## Structure
+- `index.html` – content and section layout for Home, About, Services, Weddings, Wakes, Corporate and Book Now.
+- `style.css` – typography, layout and responsive styling.
+- `script.js` – navigation toggle, smooth scrolling and booking form handling with a Stripe payment link hand-off placeholder.
 
 ## Running locally
+Open `index.html` directly in your browser or serve the folder with any static server (for example `python -m http.server`).
 
-```bash
-python -m http.server 8000
-```
-
-Then browse to http://localhost:8000.
-
-## Customising
-- Update contact details or copy as needed in `index.html`.
-- Replace the placeholder Google Sheet link in the "Check or share dates" section.
-- Swap gallery images with your own photos (local files or hosted URLs).
-- Update the Stripe/payment links in the packages section with your live payment links.
+## Stripe hand-off
+Replace the `STRIPE_PAYMENT_LINK` and publishable key in `script.js` with your live Stripe details. For full Checkout sessions, wire the commented fetch call to your backend endpoint that returns a `sessionId`.
