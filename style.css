@@ -50,6 +50,10 @@ img {
 }
 
 .site-header {
+  background:
+    linear-gradient(135deg, rgba(11, 15, 20, 0.92), rgba(11, 15, 20, 0.85)),
+    url("https://i.ibb.co/YBKW1Wjc/Littlejonnys-pizza-van-catering-bursledon.jpg") center/cover no-repeat;
+  padding-bottom: 88px;
   background: linear-gradient(135deg, rgba(16, 23, 33, 0.8), rgba(11, 15, 20, 0.92));
   padding-bottom: 72px;
   border-bottom: 1px solid var(--line);
@@ -86,6 +90,12 @@ img {
 }
 
 .brand-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 3px solid var(--line);
+  box-shadow: var(--shadow);
   width: 44px;
   height: 44px;
   border-radius: 12px;
@@ -95,6 +105,7 @@ img {
 
 .brand-name {
   font-family: "Playfair Display", serif;
+  font-size: 1.35rem;
   font-size: 1.2rem;
 }
 
@@ -140,6 +151,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 28px;
   align-items: center;
+  padding: 42px 0 0;
   padding: 32px 0 0;
   position: relative;
   z-index: 2;
