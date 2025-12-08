@@ -89,6 +89,7 @@ img {
   letter-spacing: 0.4px;
   gap: 0;
   flex-shrink: 0;
+  isolation: isolate;
 }
 
 .brand-logo {
@@ -99,7 +100,7 @@ img {
   border-radius: 0;
   box-shadow: none;
   background: transparent;
-  mix-blend-mode: darken;
+  mix-blend-mode: multiply;
   filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.55));
 }
 
