@@ -7,6 +7,13 @@ A refreshed single-page site for Little Jonnys that spotlights wedding, wake, co
 - `style.css` – typography, layout and responsive styling.
 - `script.js` – navigation toggle, smooth scrolling and booking form handling with a Stripe payment link hand-off placeholder.
 
+## Running locally / previewing
+Quick preview:
+- Run `./preview.sh` (or `PORT=3000 ./preview.sh` if you prefer another port).
+- Then open `http://localhost:8000` (or your chosen port) in your browser.
+
+Alternatively, open `index.html` directly in your browser or serve the folder with any static server, e.g. `python -m http.server`.
+
 ## Running locally
 Open `index.html` directly in your browser or serve the folder with any static server (for example `python -m http.server`).
 
