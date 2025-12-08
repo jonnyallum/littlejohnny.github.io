@@ -52,7 +52,7 @@ img {
 .site-header {
   background:
     linear-gradient(120deg, rgba(11, 15, 20, 0.32), rgba(11, 15, 20, 0.22)),
-    url("https://i.ibb.co/YBKW1Wjc/Littlejonnys-pizza-van-catering-bursledon.jpg") center/cover no-repeat;
+    url("https://i.ibb.co/1YQZFcj8/little-jonnys-pizza-van-catering-petersfield.jpg") center/cover no-repeat;
   padding: 12px 0 190px;
   border-bottom: 1px solid var(--line);
   position: relative;
@@ -89,6 +89,7 @@ img {
   letter-spacing: 0.4px;
   gap: 0;
   flex-shrink: 0;
+  isolation: isolate;
 }
 
 .brand-logo {
@@ -99,7 +100,7 @@ img {
   border-radius: 0;
   box-shadow: none;
   background: transparent;
-  mix-blend-mode: screen;
+  mix-blend-mode: multiply;
   filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.55));
 }
 
