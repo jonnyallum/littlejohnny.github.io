@@ -553,6 +553,22 @@ img {
   font-size: 1.5rem;
 }
 
+.highlight-media {
+  margin: 0 0 16px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 2px solid var(--line);
+  box-shadow: var(--shadow);
+  background: #000;
+}
+
+.highlight-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .highlight-list ul {
   display: grid;
   gap: 10px;
