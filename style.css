@@ -555,6 +555,7 @@ img {
 
 .highlight-media {
   margin: 0 auto 16px;
+  margin: 0 0 16px;
   border-radius: 14px;
   overflow: hidden;
   border: 2px solid var(--line);
