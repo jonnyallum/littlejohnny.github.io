@@ -28,6 +28,19 @@ anchorLinks.forEach((link) => {
   });
 });
 
+// Attribute-driven deep links (e.g., "Wedding catering" chips)
+const scrollTriggers = document.querySelectorAll('[data-scroll-target]');
+scrollTriggers.forEach((trigger) => {
+  trigger.addEventListener('click', (event) => {
+    const targetId = trigger.getAttribute('data-scroll-target');
+    const target = targetId ? document.getElementById(targetId) : null;
+    if (target) {
+      event.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
 // Booking form handling with Stripe payment link hand-off
 const form = document.getElementById('booking-form');
 const statusEl = document.querySelector('.form-status');

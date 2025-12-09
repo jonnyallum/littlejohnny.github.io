@@ -312,6 +312,11 @@ img {
   margin: 16px 0 18px;
 }
 
+.link-pills {
+  margin-top: 20px;
+  gap: 12px;
+}
+
 .pill {
   padding: 8px 14px;
   background: rgba(253, 185, 19, 0.15);
@@ -321,6 +326,22 @@ img {
   font-weight: 700;
   font-size: 0.85rem;
   transition: all 0.2s ease;
+}
+
+.pill.link {
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  font-size: 0.95rem;
+  background: rgba(253, 185, 19, 0.18);
+  box-shadow: var(--shadow);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pill.link:focus-visible {
+  outline: 3px solid rgba(253, 185, 19, 0.4);
+  outline-offset: 2px;
 }
 
 .pill:hover {
